@@ -215,7 +215,7 @@ async function initGallery() {
   });
 
   document.querySelector('.lightbox-next')?.addEventListener('click', () => {
-    lightboxIndex = (lightboxIndex + 1) % currentItems.length;
+    lightboxIndex = (lightboxIndex + 1) % allItems.length;
     showLightboxContent();
   });
 
@@ -227,7 +227,7 @@ async function initGallery() {
       lightboxIndex = (lightboxIndex - 1 + allItems.length) % allItems.length;
       showLightboxContent();
     } else if (e.key === 'ArrowRight') {
-      lightboxIndex = (lightboxIndex + 1) % currentItems.length;
+      lightboxIndex = (lightboxIndex + 1) % allItems.length;
       showLightboxContent();
     }
   });
@@ -247,7 +247,7 @@ async function initGallery() {
     if (Math.abs(diff) > 50) {
       if (diff > 0) {
         // Swipe left → next
-        lightboxIndex = (lightboxIndex + 1) % currentItems.length;
+        lightboxIndex = (lightboxIndex + 1) % allItems.length;
       } else {
         // Swipe right → prev
         lightboxIndex = (lightboxIndex - 1 + allItems.length) % allItems.length;
