@@ -131,26 +131,15 @@ async function loadPhotographers() {
 }
 
 // ===== Gallery with filtering & lightbox =====
-function initGallery() {
-  const galleryItems = [
-    { src: 'images/gallery/dance_01.jpg', type: 'photo', thumb: 'images/gallery/dance_01.jpg' },
-    { src: 'images/gallery/dance_02.jpg', type: 'photo', thumb: 'images/gallery/dance_02.jpg' },
-    { src: 'images/gallery/dance_03.jpg', type: 'photo', thumb: 'images/gallery/dance_03.jpg' },
-    { src: 'images/gallery/dance_04.jpg', type: 'photo', thumb: 'images/gallery/dance_04.jpg' },
-    { src: 'images/gallery/dance_05.jpg', type: 'photo', thumb: 'images/gallery/dance_05.jpg' },
-    { src: 'images/gallery/dance_06.jpg', type: 'photo', thumb: 'images/gallery/dance_06.jpg' },
-    { src: 'images/gallery/dance_07.jpg', type: 'photo', thumb: 'images/gallery/dance_07.jpg' },
-    { src: 'images/gallery/dance_08.jpg', type: 'photo', thumb: 'images/gallery/dance_08.jpg' },
-    { src: 'images/gallery/dance_09.jpg', type: 'photo', thumb: 'images/gallery/dance_09.jpg' },
-    { src: 'images/gallery/dance_10.jpg', type: 'photo', thumb: 'images/gallery/dance_10.jpg' },
-    { src: 'images/gallery/dance_11.jpg', type: 'photo', thumb: 'images/gallery/dance_11.jpg' },
-    { src: 'images/gallery/dance_12.jpg', type: 'photo', thumb: 'images/gallery/dance_12.jpg' },
-    { src: 'images/gallery/dance_13.jpg', type: 'photo', thumb: 'images/gallery/dance_13.jpg' },
-    { src: 'images/gallery/dance_14.jpg', type: 'photo', thumb: 'images/gallery/dance_14.jpg' },
-    { src: 'images/gallery/dance_15.jpg', type: 'photo', thumb: 'images/gallery/dance_15.jpg' }
-    // Video példa - ezt később bővítheted:
-    // { src: 'https://www.youtube.com/embed/VIDEO_ID', type: 'video', thumb: 'images/gallery/video_thumb.jpg' }
-  ];
+async function initGallery() {
+  let galleryItems = [];
+
+  try {
+    const res = await fetch('images/gallery/gallery.json');
+    galleryItems = await res.json();
+  } catch (e) {
+    console.error('Gallery JSON load error:', e);
+  }
 
   const grid = document.getElementById('galleryGrid');
   const filterBtns = document.querySelectorAll('.gallery-filters .btn');
@@ -163,12 +152,23 @@ function initGallery() {
     currentItems = filter === 'all' ? [...galleryItems] : galleryItems.filter(i => i.type === filter);
     grid.innerHTML = '';
 
+    if (currentItems.length === 0) {
+      grid.innerHTML = `
+        <div class="gallery-empty">
+          <i class="fas fa-cloud-upload-alt"></i>
+          <p>Feltöltés alatt...</p>
+        </div>
+      `;
+      return;
+    }
+
     currentItems.forEach((item, i) => {
       const div = document.createElement('div');
       div.className = `gallery-item${item.type === 'video' ? ' video-item' : ''}`;
       div.innerHTML = `
-        <img src="${item.thumb}" alt="Galéria" loading="lazy">
+        <img src="${item.src}" alt="${item.label || 'Galéria'}" loading="lazy">
         <div class="gallery-overlay"><i class="fas ${item.type === 'video' ? 'fa-play-circle' : 'fa-search-plus'}"></i></div>
+        ${item.label ? `<div class="gallery-label">${item.label}</div>` : ''}
       `;
       div.addEventListener('click', () => openLightbox(i));
       grid.appendChild(div);
