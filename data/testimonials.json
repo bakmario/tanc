@@ -2,16 +2,17 @@
   {
     "id": 1,
     "text": "Norbi remek koreográfiát rakott nekünk össze, amit imádtunk eltáncolni az esküvőnkön, úgy is, hogy teljesen kezdő táncosok voltunk. A próbák nagyon jó hangulatban teltek, Norbi segített, hogy ne feszüljünk rá egyáltalán a táncolásra. Nagyon szerettük a próbákkal hangolódni a nagy napra.",
-    "venue": "Völgy Major",
-    "photo_credit": "Jázon Kováts Photography",
-    "image": "images/about/testimonial_01.jpg"
+    "venue": "<a target='_blank' href='https://www.facebook.com/volgymajor'>Völgy Major</a>",
+    "photo_credit": "<a href='https://www.facebook.com/jazonkovatsphotography' target='_blank'>Jázon Kováts Photography</a>",
+    "image": "images/gallery/dance_02.jpg",
+    "tags": ["#weddingdance #nagynap #szepnyarinap"]
   },
   {
     "id": 2,
     "text": "Norbi nagyon barátságos volt az elejétől kezdve és könnyebben megtanulható koreográfiát állított nekünk össze. A zene kiválasztásában is segített, majd órák is nagyon jó hangulatban teltek, annak ellenére is, hogy nem mindent sikerült könnyen elsajátítanunk. Emellett nagyon sokat segített a táncon kívül is az esküvő szervezésével kapcsolatban.",
-    "venue": "Gólyafészek Rendezvényház",
+    "venue": "<a target='_blank' href='https://www.facebook.com/halmaihaz'>Gólyafészek Rendezvényház</a>",
     "photo_credit": "",
-    "image": "images/about/testimonial_02.jpg",
+    "image": "images/gallery/dance_04.jpg",
     "tags": ["#golyafeszek", "#nyitotanc", "#weddingdance", "#memories"]
   }
 ]
