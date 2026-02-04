@@ -135,7 +135,7 @@ async function initGallery() {
   let galleryItems = [];
 
   try {
-    const res = await fetch('images/gallery/gallery.json');
+    const res = await fetch('data/gallery.json');
     galleryItems = await res.json();
   } catch (e) {
     console.error('Gallery JSON load error:', e);
