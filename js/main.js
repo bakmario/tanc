@@ -147,12 +147,16 @@ async function initGallery() {
   let currentItems = [];
   let lightboxIndex = 0;
 
+  // allItems: full ordered list for lightbox; featuredItems: shown in grid
+  let allItems = [];
+
   function renderGallery(filter) {
     currentFilter = filter;
-    currentItems = filter === 'all' ? [...galleryItems] : galleryItems.filter(i => i.type === filter);
+    allItems = filter === 'all' ? [...galleryItems] : galleryItems.filter(i => i.type === filter);
+    const featuredItems = allItems.filter(i => i.featured);
     grid.innerHTML = '';
 
-    if (currentItems.length === 0) {
+    if (allItems.length === 0) {
       grid.innerHTML = `
         <div class="gallery-empty">
           <i class="fas fa-cloud-upload-alt"></i>
@@ -162,15 +166,15 @@ async function initGallery() {
       return;
     }
 
-    currentItems.forEach((item, i) => {
+    featuredItems.forEach((item) => {
       const div = document.createElement('div');
       div.className = `gallery-item${item.type === 'video' ? ' video-item' : ''}`;
       div.innerHTML = `
         <img src="${item.src}" alt="${item.label || 'Galéria'}" loading="lazy">
         <div class="gallery-overlay"><i class="fas ${item.type === 'video' ? 'fa-play-circle' : 'fa-search-plus'}"></i></div>
-        ${item.label ? `<div class="gallery-label">${item.label}</div>` : ''}
       `;
-      div.addEventListener('click', () => openLightbox(i));
+      const fullIndex = allItems.indexOf(item);
+      div.addEventListener('click', () => openLightbox(fullIndex));
       grid.appendChild(div);
     });
   }
@@ -194,16 +198,19 @@ async function initGallery() {
   }
 
   function showLightboxContent() {
-    const item = currentItems[lightboxIndex];
+    const item = allItems[lightboxIndex];
     if (item.type === 'video') {
       lightboxBody.innerHTML = `<iframe src="${item.src}" allowfullscreen></iframe>`;
     } else {
-      lightboxBody.innerHTML = `<img src="${item.src}" alt="Galéria">`;
+      lightboxBody.innerHTML = `
+        <img src="${item.src}" alt="${item.label || 'Galéria'}">
+        ${item.label ? `<div class="lightbox-label">${item.label}</div>` : ''}
+      `;
     }
   }
 
   document.querySelector('.lightbox-prev')?.addEventListener('click', () => {
-    lightboxIndex = (lightboxIndex - 1 + currentItems.length) % currentItems.length;
+    lightboxIndex = (lightboxIndex - 1 + allItems.length) % allItems.length;
     showLightboxContent();
   });
 
@@ -217,7 +224,7 @@ async function initGallery() {
     const modal = document.getElementById('lightboxModal');
     if (!modal.classList.contains('show')) return;
     if (e.key === 'ArrowLeft') {
-      lightboxIndex = (lightboxIndex - 1 + currentItems.length) % currentItems.length;
+      lightboxIndex = (lightboxIndex - 1 + allItems.length) % allItems.length;
       showLightboxContent();
     } else if (e.key === 'ArrowRight') {
       lightboxIndex = (lightboxIndex + 1) % currentItems.length;
@@ -243,7 +250,7 @@ async function initGallery() {
         lightboxIndex = (lightboxIndex + 1) % currentItems.length;
       } else {
         // Swipe right → prev
-        lightboxIndex = (lightboxIndex - 1 + currentItems.length) % currentItems.length;
+        lightboxIndex = (lightboxIndex - 1 + allItems.length) % allItems.length;
       }
       showLightboxContent();
     }
