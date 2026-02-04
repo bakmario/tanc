@@ -578,21 +578,33 @@ section {
   height: 40px;
   background: var(--primary);
   border-radius: 50%;
+  opacity: .9;
+}
+
+/* Desktop: arrows on sides, indicators below */
+.carousel-nav-wrapper {
+  position: static;
+}
+
+#testimonials .carousel-control-prev,
+#testimonials .carousel-control-next {
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  opacity: .9;
 }
 
 #testimonials .carousel-control-prev { left: -20px; }
 #testimonials .carousel-control-next { right: -20px; }
 
 #testimonials .carousel-indicators {
-  bottom: -2.5rem;
+  position: relative;
+  bottom: 0;
+  margin-top: 1.5rem;
   margin-bottom: 0;
 }
 
 #testimonials .carousel {
-  padding-bottom: 3rem;
+  padding-bottom: 0;
 }
 
 #testimonials .carousel-indicators [data-bs-target] {
@@ -742,9 +754,13 @@ footer a:hover {
   }
 
   /* Testimonial carousel controls inside on tablet */
-  #testimonials .carousel-control-prev { left: 0; }
-  #testimonials .carousel-control-next { right: 0; }
+  #testimonials .carousel-control-prev { left: -10px; }
+  #testimonials .carousel-control-next { right: -10px; }
   .testimonial-card { padding: 1.5rem; margin: 0 30px; }
+
+  #testimonials .carousel-nav-wrapper {
+    position: static;
+  }
 
   /* Lightbox nav buttons bigger touch target */
   .lightbox-nav { padding: .6rem .9rem; font-size: 1.6rem; }
@@ -775,16 +791,39 @@ footer a:hover {
 
   .testimonial-card {
     padding: 1.2rem;
-    margin: 0 5px;
+    margin: 0;
   }
   .testimonial-card .testimonial-text { font-size: .92rem; }
   .testimonial-card .testimonial-img { width: 80px; height: 80px; }
 
-  /* Carousel controls as bottom indicators on mobile */
+  /* Carousel controls below card on mobile */
   #testimonials .carousel-control-prev,
   #testimonials .carousel-control-next {
+    position: relative;
+    top: auto;
+    transform: none;
     width: 36px;
     height: 36px;
+    display: inline-flex;
+  }
+  #testimonials .carousel-control-prev { left: auto; }
+  #testimonials .carousel-control-next { right: auto; }
+
+  #testimonials .carousel-nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  #testimonials .carousel-indicators {
+    position: static;
+    margin: 0;
+  }
+
+  #testimonials .carousel {
+    padding-bottom: 0;
   }
 
   .photographer-card img { height: 180px; }
