@@ -110,7 +110,7 @@ async function loadPhotographers() {
     container.innerHTML = '';
     data.forEach(item => {
       const col = document.createElement('div');
-      col.className = 'col-md-6 col-lg-4 mb-4';
+      col.className = 'col-10 col-sm-8 col-md-5 col-lg-5 mb-4';
       col.innerHTML = `
         <div class="photographer-card">
           <img src="${item.image}" alt="${item.name}" onerror="this.src='https://via.placeholder.com/400x200?text=Fotós'">
