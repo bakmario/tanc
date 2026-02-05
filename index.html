@@ -40,7 +40,7 @@
           <li class="nav-item"><a class="nav-link" href="#contact">Kapcsolat</a></li>
           <li class="nav-item"><a class="nav-link" href="#gallery">Galéria</a></li>
           <li class="nav-item"><a class="nav-link" href="#testimonials">Vélemények</a></li>
-          <li class="nav-item"><a class="nav-link" href="#photographers">Fotósok</a></li>
+          <li class="nav-item"><a class="nav-link" href="#photographers">Ajánló</a></li>
           <li class="nav-item"><a class="nav-link" href="#printer">Fotónyomtató</a></li>
         </ul>
       </div>
@@ -52,7 +52,7 @@
     <div class="hero-content px-3">
       <h1 class="mb-3">Fehér Norbert</h1>
       <p>Esküvői nyitótánc oktatás</p>
-      <p><i>Tedd felejthetetlenné a nagy napot!</i></p>
+      <p><i>Tedd felejthetetlenné az első táncotokat!</i></p>
       <a href="#about" class="btn btn-hero">Tudj meg többet</a>
     </div>
     <div class="scroll-indicator">
@@ -69,6 +69,8 @@
         </div>
         <div class="col-lg-7 fade-in">
           <h2 class="section-title">Rólam</h2>
+
+          <!--
           <p class="about-text mt-3">
             Sziasztok! <strong>Fehér Norbert</strong> vagyok, a Madách Táncművészeti szakon végeztem, majd az <strong>Attraction Látványszínháznál</strong> voltam 7 évig. A tánc több, mint 15 éve az életem része.
           </p>
@@ -78,10 +80,33 @@
           <p class="about-text">
             Ha a közelgő esküvőtöket tervezitek és szeretnétek a nyitó táncot felejthetetlenné tenni, keressetek bizalommal!
           </p>
+          -->
+
+
+          <p class="about-text mt-3">
+            Szia, <strong>Fehér Norbert</strong> vagyok. A tánc gyerekkorom óta az életem. Versenytáncos alapok után 7 évig az  <strong>Attraction Látványszínházzal</strong> jártam a világot: felléptem a Britain’s Got Talent színpadán, valamint az angol és a dán királyi család előtt is. Ezt a színpadi rutint és tudást hozom el most nektek.
+          </p>
+
+            <p class="about-text">
+              <strong>Miben segíthetek?</strong><br>
+              Ma már az esküvői koreográfiákra specializálódom. Segítek, hogy a nyitótáncotok magabiztos és örömteli pillanat legyen – akkor is, ha korábban sosem álltatok táncparketten.
+            </p>
+
+            <p class="about-text mb-0"><strong>Amit együtt megvalósíthatunk:</strong></p>
+            <ul class="mt-1">
+              <li>Elegáns és klasszikus – a hagyományok kedvelőinek.</li>
+              <li>Romantikus és érzelmes – a meghitt pillanatokért.</li>
+              <li>Vidám és meglepő – ha valami igazán egyedit mutatnátok.</li>
+            </ul>
+          <p class="about-text">
+            A célom, hogy a felkészülés ne csak gyakorlás, hanem egy közös élmény legyen számotokra. Keressetek bátran, és táncoljuk el az álmaitokat!
+          </p>
+
+
           <hr>
           <div class="about-contact-item">
             <i class="fas fa-envelope"></i>
-            <a href="mailto:feher.n28@gmail.com">feher.n28@gmail.com</a>
+            <a href="mailto:feher.norbert.dance@gmail.com">feher.norbert.dance@gmail.com</a>
           </div>
           <div class="about-contact-item">
             <i class="fas fa-phone"></i>
@@ -114,6 +139,18 @@
               <div class="col-md-6">
                 <label for="weddingDate" class="form-label">Esküvő dátuma</label>
                 <input type="date" class="form-control" id="weddingDate">
+              </div>
+              <div class="col-md-6">
+                <label for="weddingLocation" class="form-label">Helyszín</label>
+                <input type="text" class="form-control" id="weddingLocation" placeholder="pl. Budapest, Balaton">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="printerRental">
+                  <label class="form-check-label" for="printerRental">
+                    Érdekel a fotónyomtató bérlés
+                  </label>
+                </div>
               </div>
               <div class="col-12">
                 <label for="messageText" class="form-label">Üzenet *</label>
@@ -189,8 +226,14 @@
   <section id="photographers">
     <div class="container">
       <div class="text-center mb-5 fade-in">
-        <h2 class="section-title">Fotósok</h2>
-        <p class="text-muted">Megbízható fotósok, akikkel szívesen dolgozom együtt</p>
+        <h2 class="section-title">Ajánló</h2>
+        <p class="text-muted">Megbízható szolgáltatók, akikkel szívesen dolgozom együtt</p>
+      </div>
+      <div class="text-center gallery-filters mb-4 fade-in">
+        <button class="btn active" data-filter="fotos">Fotós</button>
+        <button class="btn" data-filter="videos">Videós</button>
+        <button class="btn" data-filter="helyszin">Helyszín</button>
+        <button class="btn" data-filter="ceremoniamester">Ceremóniamester</button>
       </div>
       <div class="row justify-content-center fade-in" id="photographersList">
         <!-- JS fills this from photographers.json -->

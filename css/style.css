@@ -1,7 +1,7 @@
 /* ===== General ===== */
 :root {
-  --primary: #b08d6e;
-  --primary-dark: #8c6d50;
+  --primary: #7b9e87;
+  --primary-dark: #5a7d66;
   --dark: #2c2c2c;
   --light: #faf8f5;
   --gray: #6c757d;
@@ -105,7 +105,7 @@ section {
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
   color: var(--primary-dark);
-  background: rgba(176,141,110,0.1);
+  background: rgba(123,158,135,0.1);
 }
 
 /* Mobile dropdown menu */
@@ -132,7 +132,7 @@ section {
 
   .navbar .nav-link:hover,
   .navbar .nav-link.active {
-    background: rgba(176,141,110,0.08);
+    background: rgba(123,158,135,0.08);
   }
 }
 
@@ -204,7 +204,7 @@ section {
 #hero .btn-hero:hover {
   background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(176,141,110,0.4);
+  box-shadow: 0 6px 25px rgba(123,158,135,0.4);
 }
 
 .scroll-indicator {
@@ -268,7 +268,7 @@ section {
 
 .contact-form .form-control:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 .2rem rgba(176,141,110,0.2);
+  box-shadow: 0 0 0 .2rem rgba(123,158,135,0.2);
 }
 
 .contact-form label {
@@ -292,7 +292,7 @@ section {
 .btn-primary-custom:hover {
   background: var(--primary-dark);
   transform: translateY(-1px);
-  box-shadow: 0 4px 15px rgba(176,141,110,0.3);
+  box-shadow: 0 4px 15px rgba(123,158,135,0.3);
   color: #fff;
 }
 
@@ -517,8 +517,32 @@ section {
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 1rem;
+  margin: 0;
   border: 3px solid var(--primary);
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-name {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+  min-width: 80px;
+}
+
+.testimonial-name-left {
+  text-align: right;
+}
+
+.testimonial-name-right {
+  text-align: left;
 }
 
 .testimonial-card .testimonial-text {
@@ -875,6 +899,8 @@ footer a:hover {
   .testimonial-card { padding: 1rem; margin: 0; }
   .testimonial-card .testimonial-text { font-size: .88rem; line-height: 1.6; }
   .testimonial-card .testimonial-img { width: 70px; height: 70px; border-width: 2px; }
+  .testimonial-header { gap: 1rem; }
+  .testimonial-name { font-size: .95rem; min-width: 60px; }
 
   .photographer-card img { height: 150px; }
   .photographer-card .card-body { padding: 1rem; }
@@ -904,6 +930,8 @@ footer a:hover {
   .gallery-item { border-radius: 4px; }
 
   .testimonial-card .testimonial-text { font-size: .82rem; }
+  .testimonial-header { gap: .8rem; }
+  .testimonial-name { font-size: .85rem; min-width: 50px; }
 }
 
 /* ===== Landscape phone ===== */

@@ -85,7 +85,11 @@ async function loadTestimonials() {
       slide.className = `carousel-item${i === 0 ? ' active' : ''}`;
       slide.innerHTML = `
         <div class="testimonial-card mx-auto" style="max-width:650px;">
-          ${item.image ? `<img src="${item.image}" alt="Vélemény" class="testimonial-img" onerror="this.style.display='none'">` : ''}
+          <div class="testimonial-header">
+            <span class="testimonial-name testimonial-name-left">${item.name_left || ''}</span>
+            ${item.image ? `<img src="${item.image}" alt="Vélemény" class="testimonial-img" onerror="this.style.display='none'">` : ''}
+            <span class="testimonial-name testimonial-name-right">${item.name_right || ''}</span>
+          </div>
           <div class="testimonial-text">${item.text}</div>
           <div class="testimonial-venue"><i class="fas fa-map-marker-alt me-1"></i>${item.venue}</div>
           ${item.photo_credit ? `<div class="testimonial-photo-credit"><i class="fas fa-camera me-1"></i>${item.photo_credit}</div>` : ''}
@@ -101,14 +105,34 @@ async function loadTestimonials() {
 
 // ===== Photographers from JSON =====
 async function loadPhotographers() {
+  let photographersData = [];
+
   try {
     const res = await fetch('data/photographers.json');
-    const data = await res.json();
-    const container = document.getElementById('photographersList');
-    if (!container) return;
+    photographersData = await res.json();
+  } catch (e) {
+    console.error('Photographers load error:', e);
+    return;
+  }
 
+  const container = document.getElementById('photographersList');
+  const filterBtns = document.querySelectorAll('#photographers .gallery-filters .btn');
+  if (!container) return;
+
+  function renderPhotographers(filter) {
+    const filtered = photographersData.filter(item => item.category === filter);
     container.innerHTML = '';
-    data.forEach(item => {
+
+    if (filtered.length === 0) {
+      container.innerHTML = `
+        <div class="col-12 text-center text-muted">
+          <p>Hamarosan...</p>
+        </div>
+      `;
+      return;
+    }
+
+    filtered.forEach(item => {
       const col = document.createElement('div');
       col.className = 'col-10 col-sm-8 col-md-5 col-lg-5 mb-4';
       col.innerHTML = `
@@ -125,9 +149,18 @@ async function loadPhotographers() {
       `;
       container.appendChild(col);
     });
-  } catch (e) {
-    console.error('Photographers load error:', e);
   }
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderPhotographers(btn.dataset.filter);
+    });
+  });
+
+  // Render default (first filter - fotos)
+  renderPhotographers('fotos');
 }
 
 // ===== Gallery with filtering & lightbox =====
@@ -270,6 +303,8 @@ function initContactForm() {
     const name = document.getElementById('senderName').value.trim();
     const email = document.getElementById('senderEmail').value.trim();
     const date = document.getElementById('weddingDate').value;
+    const location = document.getElementById('weddingLocation').value.trim();
+    const printerRental = document.getElementById('printerRental').checked;
     const message = document.getElementById('messageText').value.trim();
 
     if (!name || !email || !message) {
@@ -282,10 +317,12 @@ function initContactForm() {
       `Feladó neve: ${name}\n` +
       `Feladó e-mail: ${email}\n` +
       `Esküvő dátuma: ${date || 'Még nem tudom'}\n` +
+      `Helyszín: ${location || 'Nincs megadva'}\n` +
+      `Fotónyomtató bérlés: ${printerRental ? 'Igen, érdekel' : 'Nem'}\n` +
       `\nÜzenet:\n${message}`
     );
 
-    window.location.href = `mailto:feher.n28@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:feher.norbert.dance@gmail.com?subject=${subject}&body=${body}`;
 
     // Show success feedback
     const btn = form.querySelector('button[type="submit"]');
