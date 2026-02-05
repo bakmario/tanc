@@ -56,6 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ===== Contact Form =====
   initContactForm();
+
+  // ===== Live Event Popup =====
+  initEventPopup();
 });
 
 // ===== Testimonials from JSON =====
@@ -334,4 +337,100 @@ function initContactForm() {
       btn.disabled = false;
     }, 3000);
   });
+}
+
+// ===== Live Event Popup =====
+async function initEventPopup() {
+  try {
+    const res = await fetch('data/event.json');
+    const data = await res.json();
+
+    // Check if enabled
+    if (!data.enabled) return;
+
+    const event = data.event;
+    const delay = (data.delay_seconds || 5) * 1000;
+
+    // Check if already dismissed this session
+    if (sessionStorage.getItem('eventPopupDismissed')) return;
+
+    // Create popup element
+    const popup = document.createElement('div');
+    popup.className = 'event-popup';
+    popup.innerHTML = `
+      <button class="event-popup-close" aria-label="Bezár">&times;</button>
+      <div class="event-popup-content">
+        <div class="event-popup-icon">
+          <i class="fas fa-calendar-star"></i>
+        </div>
+        <div class="event-popup-text">${data.button_text}</div>
+      </div>
+    `;
+    document.body.appendChild(popup);
+
+    // Create modal
+    const modal = document.createElement('div');
+    modal.className = 'modal fade event-modal';
+    modal.id = 'eventModal';
+    modal.tabIndex = -1;
+    modal.innerHTML = `
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">${event.title}</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezár"></button>
+          </div>
+          <div class="modal-body">
+            ${event.image ? `<img src="${event.image}" alt="${event.title}" class="event-modal-image" onerror="this.style.display='none'">` : ''}
+            <div class="event-modal-info">
+              <div class="event-modal-info-item">
+                <i class="fas fa-calendar-day"></i>
+                <span><strong>${event.date}</strong>${event.time ? ` &bull; ${event.time}` : ''}</span>
+              </div>
+              <div class="event-modal-info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <div>${event.location}</div>
+                  ${event.address ? `<small class="text-muted">${event.address}</small>` : ''}
+                </div>
+              </div>
+            </div>
+            <p class="event-modal-description">${event.description}</p>
+          </div>
+          ${event.cta_text && event.cta_link ? `
+          <div class="modal-footer justify-content-center">
+            <a href="${event.cta_link}" target="_blank" class="btn btn-event">
+              <i class="fas fa-external-link-alt me-2"></i>${event.cta_text}
+            </a>
+          </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+
+    const eventModal = new bootstrap.Modal(modal);
+
+    // Show popup after delay
+    setTimeout(() => {
+      popup.classList.add('show');
+    }, delay);
+
+    // Click popup to open modal
+    popup.addEventListener('click', (e) => {
+      if (e.target.closest('.event-popup-close')) return;
+      popup.classList.remove('show');
+      eventModal.show();
+    });
+
+    // Close button
+    popup.querySelector('.event-popup-close').addEventListener('click', (e) => {
+      e.stopPropagation();
+      popup.classList.remove('show');
+      sessionStorage.setItem('eventPopupDismissed', 'true');
+    });
+
+  } catch (e) {
+    console.error('Event popup load error:', e);
+  }
 }

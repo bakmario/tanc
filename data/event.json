@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "delay_seconds": 2,
+  "button_text": "Találkozz velem élőben!",
+  "event": {
+    "title": "Esküvő Kiállítás",
+    "date": "2026. március 15.",
+    "time": "10:00 - 18:00",
+    "location": "Budapest, Hungexpo",
+    "address": "1101 Budapest, Albertirsai út 10.",
+    "description": "Gyere el a legnagyobb esküvői kiállításra, ahol személyesen találkozhatsz velem! Beszélgethetünk a nyitótáncról, megnézhetsz élő bemutatót, és helyszíni kedvezményt is kaphatsz.",
+    "image": "images/event/event.jpg",
+    "cta_text": "Részletek",
+    "cta_link": ""
+  }
+}
