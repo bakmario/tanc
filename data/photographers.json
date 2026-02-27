@@ -25,14 +25,30 @@
   },
   {
     "id": 4,
-    "name": "Példa Helyszín",
+    "name": "Gólyafészek Rendezvènyhàz / Hochzeit Haus",
     "category": "helyszin",
-    "image": "images/about/photographer_placeholder.jpg",
-    "link": "#",
-    "description": "Gyönyörű esküvői helyszín természetközeli környezetben. Szerkeszd a photographers.json fájlt az adatok módosításához."
+    "image": "images/about/Golyafeszek.jpg",
+    "link": "https://www.facebook.com/halmaihaz",
+    "description": "Gólyafészek Rendezvényház – ahol az IGEN örökre szól"
   },
   {
     "id": 5,
+    "name": "Szélrózsa Birtok",
+    "category": "helyszin",
+    "image": "images/about/Szelrozsa.jpg",
+    "link": "https://www.szelrozsabirtok.hu/",
+    "description": "A Szélrózsa birtok Dunaföldvár mellett, közvetlenül a Felső-tó partján található. A rendezvényház és környezete csendes, elegáns helyszínt biztosít alkalmi rendezvények, esküvők, születésnapok, családi összejövetelek, konferenciák és üzleti találkozók szervezéséhez."
+  },
+  {
+    "id": 6,
+    "name": "Nádas Pihenőpark",
+    "category": "helyszin",
+    "image": "images/about/Nadas.jpg",
+    "link": "https://nadaspihenopark.hu/",
+    "description": "Gyönyörű esküvői helyszín természetközeli környezetben. Szerkeszd a photographers.json fájlt az adatok módosításához."
+  },
+  {
+    "id": 7,
     "name": "Jakab Kinga Ceremóniamesternő",
     "category": "ceremoniamester",
     "image": "images/about/Jakab-Kinga.jpg",
@@ -40,7 +56,7 @@
     "description": "Tapasztalt ceremóniamester, aki emlékezetessé teszi a nagy napot. Szerkeszd a photographers.json fájlt az adatok módosításához."
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "Példa Ceremóniamester 2",
     "category": "ceremoniamester",
     "image": "images/about/photographer_placeholder.jpg",
@@ -48,7 +64,7 @@
     "description": "Tapasztalt ceremóniamester, aki emlékezetessé teszi a nagy napot. Szerkeszd a photographers.json fájlt az adatok módosításához."
   },
   {
-    "id": 7,
+    "id": 9,
     "name": "Példa Ceremóniamester 3",
     "category": "ceremoniamester",
     "image": "images/about/photographer_placeholder.jpg",
@@ -56,7 +72,7 @@
     "description": "Tapasztalt ceremóniamester, aki emlékezetessé teszi a nagy napot. Szerkeszd a photographers.json fájlt az adatok módosításához."
   },
   {
-    "id": 8,
+    "id": 10,
     "name": "EmlékVilág",
     "category": "egyeb",
     "image": "https://emlekvilag.cdn.shoprenter.hu/custom/emlekvilag/image/data/Banner/2025-08-20_hk.jpg.webp",
