@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Kovács Béla Photography",
+    "name": "Kováts Jázon Photography",
     "category": "fotos",
     "image": "images/about/photographer_jazon.jpg",
     "link": "https://www.facebook.com/jazonkovats",
@@ -9,11 +9,11 @@
   },
   {
     "id": 2,
-    "name": "Példa Fotós",
+    "name": "Aradi Barna Photography",
     "category": "fotos",
-    "image": "images/about/photographer_placeholder.jpg",
-    "link": "#",
-    "description": "Ide jön a fotós leírása. Szerkeszd a photographers.json fájlt az adatok módosításához."
+    "image": "images/about/Aradi-Barna.jpg",
+    "link": "https://www.aradibarna.com/",
+    "description": "Esküvői fotózás, természetes, élettel teli pillanatok megörökítése"
   },
   {
     "id": 3,
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "name": "Emlék Világ",
+    "name": "EmlékVilág",
     "category": "egyeb",
     "image": "https://emlekvilag.cdn.shoprenter.hu/custom/emlekvilag/image/data/Banner/2025-08-20_hk.jpg.webp",
     "link": "https://emlekvilag.hu/",
