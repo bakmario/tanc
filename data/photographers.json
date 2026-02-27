@@ -33,10 +33,10 @@
   },
   {
     "id": 5,
-    "name": "Példa Ceremóniamester 1",
+    "name": "Jakab Kinga Ceremóniamesternő",
     "category": "ceremoniamester",
-    "image": "images/about/photographer_placeholder.jpg",
-    "link": "#",
+    "image": "images/about/jakab-kinga.jpg",
+    "link": "https://www.facebook.com/profile.php?id=61580288530761",
     "description": "Tapasztalt ceremóniamester, aki emlékezetessé teszi a nagy napot. Szerkeszd a photographers.json fájlt az adatok módosításához."
   },
   {
