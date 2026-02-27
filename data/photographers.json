@@ -54,5 +54,13 @@
     "image": "images/about/photographer_placeholder.jpg",
     "link": "#",
     "description": "Tapasztalt ceremóniamester, aki emlékezetessé teszi a nagy napot. Szerkeszd a photographers.json fájlt az adatok módosításához."
+  },
+  {
+    "id": 8,
+    "name": "Példa egyéb 3",
+    "category": "egyeb",
+    "image": "images/about/photographer_placeholder.jpg",
+    "link": "#",
+    "description": "Tapasztalt egyéb, aki emlékezetessé tesz mindent a nagy napon. Szerkeszd a photographers.json fájlt az adatok módosításához."
   }
 ]
