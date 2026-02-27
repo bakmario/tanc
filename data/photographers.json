@@ -57,10 +57,10 @@
   },
   {
     "id": 8,
-    "name": "Példa egyéb 3",
+    "name": "Emlék Világ",
     "category": "egyeb",
-    "image": "images/about/photographer_placeholder.jpg",
-    "link": "#",
-    "description": "Tapasztalt egyéb, aki emlékezetessé tesz mindent a nagy napon. Szerkeszd a photographers.json fájlt az adatok módosításához."
+    "image": "https://emlekvilag.cdn.shoprenter.hu/custom/emlekvilag/image/data/Banner/2025-08-20_hk.jpg.webp",
+    "link": "https://emlekvilag.hu/",
+    "description": "Életünk meghatározó eseményeit sokféleképpen őrizhetjük, de az igazán emlékezetes pillanatok megérdemlik, hogy örökké velünk és szeretteinkkel legyenek."
   }
 ]
