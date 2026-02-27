@@ -65,18 +65,18 @@
   },
   {
     "id": 9,
-    "name": "Példa Ceremóniamester 3",
-    "category": "ceremoniamester",
-    "image": "images/about/photographer_placeholder.jpg",
-    "link": "#",
-    "description": "Tapasztalt ceremóniamester, aki emlékezetessé teszi a nagy napot. Szerkeszd a photographers.json fájlt az adatok módosításához."
-  },
-  {
-    "id": 10,
     "name": "EmlékVilág",
     "category": "egyeb",
     "image": "https://emlekvilag.cdn.shoprenter.hu/custom/emlekvilag/image/data/Banner/2025-08-20_hk.jpg.webp",
     "link": "https://emlekvilag.hu/",
     "description": "Életünk meghatározó eseményeit sokféleképpen őrizhetjük, de az igazán emlékezetes pillanatok megérdemlik, hogy örökké velünk és szeretteinkkel legyenek."
-  }
+  },
+  {
+    "id": 10,
+    "name": "Lavard",
+    "category": "egyeb",
+    "image": "images/about/Lavard.jpg",
+    "link": "https://lavard.hu/",
+    "description": "Életünk meghatározó eseményeit sokféleképpen őrizhetjük, de az igazán emlékezetes pillanatok megérdemlik, hogy örökké velünk és szeretteinkkel legyenek."
+  },
 ]
