@@ -77,7 +77,7 @@
     "image": "images/gallery/Eszter-Gabor.jpg",
     "tags": ["#golyafeszek", "#nyitotanc", "#weddingdance", "#memories"]
   },
-{
+  {
     "id": 9,
     "name_left": "Ági",
     "name_right": "Bence",
@@ -87,7 +87,7 @@
     "image": "images/gallery/Agi-Bence.jpg",
     "tags": ["#golyafeszek", "#nyitotanc", "#weddingdance", "#memories"]
   },
-{
+  {
     "id": 10,
     "name_left": "Janka",
     "name_right": "Máté",
@@ -97,7 +97,7 @@
     "image": "images/gallery/Janka-Mate.jpg",
     "tags": ["#weddingdance #nagynap #szepnyarinap"]
   },
-{
+  {
     "id": 11,
     "name_left": "Anita",
     "name_right": "Tamas",
@@ -107,7 +107,7 @@
     "image": "images/gallery/Benita-Tamas.jpg",
     "tags": ["#nyitotanc", "#weddingdance", "#memories"]
   },
-{
+  {
     "id": 12,
     "name_left": "Evelin",
     "name_right": "Gyula",
@@ -117,7 +117,7 @@
     "image": "images/gallery/Evelin-Gyula.jpg",
     "tags": ["#nyitotanc", "#weddingdance", "#szeposzinap"]
   },
-{
+  {
     "id": 13,
     "name_left": "Kinga",
     "name_right": "Sándor",
@@ -127,7 +127,7 @@
     "image": "images/gallery/Kinga-Sandor.jpg",
     "tags": ["#weddingdance #nagynap #szepemlek"]
   },
-{
+  {
     "id": 14,
     "name_left": "Fanni",
     "name_right": "Erik",
