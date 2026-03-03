@@ -198,5 +198,45 @@
     "photo_credit": "<a href='https://www.facebook.com/slennerphoto' target='_blank'>Slenner Photography</a>",
     "image": "images/gallery/Alexandra-Zoltan.jpg",
     "tags": ["#nyitotanc","#memories", "#together", "#bigday"]
+  },
+  {
+    "id": 21,
+    "name_left": "Barbi",
+    "name_right": "Levente",
+    "text": "Norbi fantasztikus tánctanár! Már az első pillanattól kezdve nagyon kedves, vicces és türelmes volt velünk. Az órák mindig jó hangulatban teltek, nagyon sokat nevettünk, és ami fontos, sosem rajtunk nevetett, hanem velünk együtt.A nyitótánc koreográfiája teljesen ránk volt szabva: egyszerre volt gyönyörű és élvezetes, így nem csak tanulni, hanem előadni is öröm volt. Az esküvőnk napján is ott volt mellettünk, mindenben segített, számíthattunk rá, ami rengeteget jelentett nekünk.Profi szakember, akit szívből ajánlunk minden jegyespárnak, akik szeretnék, hogy a tánc örömforrás legyen, ne stressz. Köszönjük, Norbi, hogy a nyitótáncunk ilyen felejthetetlen élmény lett!🥰🥰😊",
+    "venue": "<a target='_blank' href='https://www.facebook.com/halmaihaz'>Gólyafészek Rendezvényház</a>",
+    "photo_credit": "<a href='https://www.facebook.com/gazdagfoto' target='_blank'>Gazdag Photography</a>",
+    "image": "images/gallery/Barbi-Levente.jpg",
+    "tags": ["#nyitotanc","#partyinthehouse", "#together", "#bigday"]
+  },
+  {
+    "id": 22,
+    "name_left": "Angelika",
+    "name_right": "Bálint",
+    "text": "Egy segítőkész, humoros tánctanárt ismertünk meg Norbiba. A próbák nagyon jó hangulatba teltek. Teljes szívből ajánljuk mindenkinek Norbit.🥰☺️",
+    "venue": "<a target='_blank' href='https://aranyhaletterem.com'>Aranyhal Étterem</a>",
+    "photo_credit": "<a href='https://www.facebook.com/KovacsRomeoRomesh' target='_blank'>Rómeó Romesh Kovács Photography</a>",
+    "image": "images/gallery/Angelika-Balint.jpg",
+    "tags": ["#nyitotanc","#weddingdance", "#memories"]
+  },
+  {
+    "id": 23,
+    "name_left": "Betti",
+    "name_right": "Gábor",
+    "text": "Szuperül sikerült az esküvői táncunk, amiben Norbinak nagy szerepe volt. Mint abszolút kezdők, kreatív és koherens figurákat tanultunk tőle, amik klasszul illeszkedtek a koreográfiához. A rugalmas, segítőkész hozzáállással is elégedettek voltunk.",
+    "venue": "<a target='_blank' href='https://www.facebook.com/csaloganyeskuvo.hu'>Csalogány Esküvő - és Rendezvényhelyszín</a>",
+    "photo_credit": "<a href='https://weddingfantasy.hu/' target='_blank'>Wedding Fantasy Photography</a>",
+    "image": "images/gallery/Betti-Gabor.jpg",
+    "tags": ["#nyitotanc","#nagynap", "#iamproud"]
+  },
+  {
+    "id": 25,
+    "name_left": "Zsófi",
+    "name_right": "Tamás",
+    "text": "Nagyon vidám hangulatban teltek a próbák, a szám és a koreográfia is telitalálat volt. Az esküvő utáni hetekben is hiányoltuk a próbákat, annyira a heteink részévé vált, ahogy Norbi is 😊",
+    "venue": "<a target='_blank' href='https://www.facebook.com/dudoketterem'>Dudok Rendezvényház</a>",
+    "photo_credit": "<a href='https://www.martontunde.hu/' target='_blank'>Márton Tünde Photography</a>",
+    "image": "images/gallery/Zsofi-Tamas.jpg",
+    "tags": ["#nyitotanc","#boldogsag", "#minthategnaplettvolna"]
   }
 ]
