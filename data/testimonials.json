@@ -57,5 +57,89 @@
     "photo_credit": "",
     "image": "images/gallery/Dorina-Zsolti.jpg",
     "tags": ["#nairam", "#friends", "#weddingdance", "#memories"]
+  },
+  {
+    "id": 7,
+    "name_left": "Gréta",
+    "name_right": "Máté",
+    "text": "Szeretnenk megkoszonni mindent, imadtuk a tancunk (es az orak) minden percet!! Maximalisan sikerult olyan tancot tanitanod nekunk, amit elkepzeltunk, ami nem a megszokott hanem tele van vicces/bulisabb elemekkel😊 Az eskuvon is nagyon jol sikerult minden (eltekintve egy kis fenekre esestol, de arra is sokan azt hittek, hogy direkt benne volt😂), imadta a nasznep, azota is akarkivel beszelunk emlegetik milyen jo volt😍 meg egyszer nagyon koszonunk mindent!!!"",
+    "photo_credit": "",
+    "image": "images/gallery/Greta-Mate.jpg",
+    "tags": ["#weddingdance #nagynap #szepnyarinap"]
+  },
+  {
+    "id": 8,
+    "name_left": "Ezster",
+    "name_right": "Gábor",
+    "text": "Első tánc órától kezdve nagyon jó volt a  hangulat az órákon. Sokat nevetünk az óráin😁😊 És természetesen Sokat tanultunk tőle és gyorsan.🥰 Rugalmas és teljesen ránk szabta a koreográfiát🥰 Sajnos velünk nem tudod ott lenni a nagy napon hogy meg néze élőben is az egészet hogy mit is tanított nekünk ❤😕  De köszönünk szépen neki mindent❤ 
+Szívből ajánlani tudjuk!❤",
+    "venue": "<a target='_blank' href='https://www.facebook.com/halmaihaz'>Gólyafészek Rendezvényház</a>",
+    "photo_credit": "",
+    "image": "images/gallery/Eszter-Gabor.jpg",
+    "tags": ["#golyafeszek", "#nyitotanc", "#weddingdance", "#memories"]
+  },
+{
+    "id": 9,
+    "name_left": "Ági",
+    "name_right": "Bence",
+    "text": Alapvetően a tánchoz nem sok közünk van, de Norbi mellett egy pillanatra sem éreztük ennek a hátrányát. Egy igazi művész lélek, aki a zene hallatán átszellemül és szebbnél szebb ötletekkel állt elő, hogy megtalálja, a számunkra legtökéletesebb koreográfiát. Egy nagyon jófej és vicces srác, akivel pillanatok alatt megtaláltuk, a közös hangot. 
+Az órák teljesen felszabadult, jó hangulatban teltek. Ez nagyban hozzájárult, hogy magabiztosan állhassunk a násznép elé, a nagy napon. Köszönjük, hogy megismerhettünk és hogy felejthetetlenné tetted az első táncunkat. Hálánk jeléül, pedig hivatalosan is elengedjük, a vonat késés miatti 10 fekvőd. 😉",
+    "venue": "<a target='_blank' href='https://www.facebook.com/halmaihaz'>Gólyafészek Rendezvényház</a>",
+    "photo_credit": "",
+    "image": "images/gallery/Agi-Bence.jpg",
+    "tags": ["#golyafeszek", "#nyitotanc", "#weddingdance", "#memories"]
+  },
+{
+    "id": 10,
+    "name_left": "Janka",
+    "name_right": "Máté",
+    "text": "Norbi remek koreográfiát rakott nekünk össze, Köszönjük a segítséget! ",
+    "venue": "<a target='_blank' href='https://www.facebook.com/merlotborhotel2016'>Merlot Borhotel és Látványpince</a>",
+    "photo_credit": "<a href='https://www.facebook.com/gabormateszphotos' target='_blank'>Gabor Matesz Photography</a>",
+    "image": "images/gallery/Janka-Mate.jpg",
+    "tags": ["#weddingdance #nagynap #szepnyarinap"]
+  },
+{
+    "id": 11,
+    "name_left": "Anita",
+    "name_right": "Tamas",
+    "text": "Köszönjük, hogy a türelmeddel és profizmusoddal magabiztossá tettél minket az első táncunkra! Nemcsak lépéseket tanítottál, hanem segítettél megteremteni a pillanatot, amit mindig emlékezetesnek álmodtunk meg. Igazán különleges élménnyé varázsoltad a felkészülést – hálásak vagyunk minden támogatásért és a sok vidám pillanatért!",
+    "venue": "<a target='_blank' href='https://www.facebook.com/Tarnocakuria'>Tarnóca kúria</a>",
+    "photo_credit": "",
+    "image": "images/gallery/Benita-Tamas.jpg",
+    "tags": ["#nyitotanc", "#weddingdance", "#memories"]
+  },
+{
+    "id": 12,
+    "name_left": "Evelin",
+    "name_right": "Gyula",
+    "text": "Ezekkel a képekkel szeretnénk megköszönni Norbi segítségét a nyitótáncunkhoz. Hatalmas türelemmel, rugalmassággal és szakértelemmel állt hozzánk, mindezt végig online. Nem tudtuk el képzelni, hogy is fog kinézni az egész koreográfia ruhában, nagyon féltünk az online tánctanulástól, de 700 km-ről ezt máshogy sajnos nem lehetett megoldani, de amikor megnéztem a videót rájöttem, hogy Ő már fejben össze rakta. Nem voltunk egyszerű eset, négy ballábbal és kevés idővel álltunk neki és a végén hatalmas sikert értünk el. Keressétek bátran, nyugodt szívvel ajánlom!",
+    "venue": "<a target='_blank' href='https://www.facebook.com/SarkanyEtterem'>Sárkány Étterem</a>",
+    "photo_credit": "",
+    "image": "images/gallery/Evelin-Gyula.jpg",
+    "tags": ["#nyitotanc", "#weddingdance", "#szeposzinap"]
+  },
+{
+    "id": 13,
+    "name_left": "Kinga",
+    "name_right": "Sándor",
+    "text": "Az esküvőnkre szerettünk volna egy keringőt megtanulni, ezért kerestük fel Norbit ajánlás után. A próbák minden alkalommal nagyon jó hangulatban teltek. Norbi még a mi nem létező tánctudásunkból is ki tudott hozni egy gyönyörű első táncot. Csak ajánlani tudjuk, ha sok nevetéssel szeretnétek táncolni tanulni. ",
+    "venue": "<a target='_blank' href='https://www.facebook.com/profile.php?id=100086777585575'>Tóth Pince - Borterasz</a>",
+    "photo_credit": "<a href='https://www.facebook.com/budaigaborphotography' target='_blank'>Budai Gábor Wedding Photography</a>",
+    "image": "images/gallery/Kinga-Sandor.jpg",
+    "tags": ["#weddingdance #nagynap #szepemlek"]
+  },
+{
+    "id": 14,
+    "name_left": "Fanni",
+    "name_right": "Erik",
+    "text": "Régóta ismerem Norbit, így nem volt kérdés hogyha az esküvői táncról lesz szó kit fogunk felkérni hogy segítsen. 
+Egy gyönyörű és a második részében vagány táncot talált ki nekünk, aminek minden pillanatàt imádtuk❤️
+Minden próbánk nagyon jó hangulatban telt, tele nevetéssel, és bíztatással, ezzel megteremtve a magabiztosságot a nagy napunkra!🙏🏻 
+Hálásak vagyunk hogy ennyit segített, úgyhogy egye-fene elengedjük a késésért a fekvőket…😀 Köszönünk neki mindent!❤️",
+    "venue": "<a target='_blank' href='https://www.facebook.com/profile.php?id=61553129215301'>Biczó Csárda & Lovaspanzió</a>",
+    "photo_credit": "<a href='https://www.facebook.com/theconcept2015' target='_blank'>The Concept Photography</a>",
+    "image": "images/gallery/Fanni-Erik.jpg",
+    "tags": ["#nyitotanc", "#weddingdance", "#szeposzinap", "#memories"]
   }
-]
+
