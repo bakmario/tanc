@@ -45,5 +45,6 @@
   { "src": "images/gallery/Zsofi-Tamas3.jpg", "type": "photo", "label": "Zsófi és Tamás", "featured": true },
   { "src": "images/gallery/Zsofi-Tamas2.jpg", "type": "photo", "label": "Zsófi és Tamás", "featured": true },
   { "src": "images/gallery/dance_01.jpg", "type": "photo", "label": "Felirat 1", "featured": false },
-  { "src": "images/gallery/dance_01.jpg", "type": "photo", "label": "Felirat 1", "featured": false },
+  { "src": "images/gallery/dance_01.jpg", "type": "photo", "label": "Felirat 1", "featured": false }
+  
 ]
