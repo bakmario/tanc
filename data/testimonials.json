@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name_left": "Anna",
-    "name_right": "Péter",
+    "name_left": "Zsófi",
+    "name_right": "Balázs",
     "text": "Norbi remek koreográfiát rakott nekünk össze, amit imádtunk eltáncolni az esküvőnkön, úgy is, hogy teljesen kezdő táncosok voltunk. A próbák nagyon jó hangulatban teltek, Norbi segített, hogy ne feszüljünk rá egyáltalán a táncolásra. Nagyon szerettük a próbákkal hangolódni a nagy napra.",
     "venue": "<a target='_blank' href='https://www.facebook.com/volgymajor'>Völgy Major</a>",
     "photo_credit": "<a href='https://www.facebook.com/jazonkovatsphotography' target='_blank'>Jázon Kováts Photography</a>",
@@ -11,12 +11,53 @@
   },
   {
     "id": 2,
-    "name_left": "Kata",
-    "name_right": "Gábor",
+    "name_left": "Réka",
+    "name_right": "Márk",
     "text": "Norbi nagyon barátságos volt az elejétől kezdve és könnyebben megtanulható koreográfiát állított nekünk össze. A zene kiválasztásában is segített, majd órák is nagyon jó hangulatban teltek, annak ellenére is, hogy nem mindent sikerült könnyen elsajátítanunk. Emellett nagyon sokat segített a táncon kívül is az esküvő szervezésével kapcsolatban.",
     "venue": "<a target='_blank' href='https://www.facebook.com/halmaihaz'>Gólyafészek Rendezvényház</a>",
     "photo_credit": "",
     "image": "images/gallery/dance_04.jpg",
     "tags": ["#golyafeszek", "#nyitotanc", "#weddingdance", "#memories"]
-  }
+  },
+  {
+    "id": 3,
+    "name_left": "Anna",
+    "name_right": "Tamás",
+    "text": "Szívből ajánljuk Norbit, azoknak, akik a nagy napjukra készülnek és profi nyitótánccal szeretné meglepni a násznépet. 🫶🏻☺️
+Norbi csodás koreográfiát rakott össze nekünk. Lehetetlennek tűnő kéréseinket profizmussal építette bele a táncunkba. Rugalmas, jófej, fókuszált szakembert ismertünk meg személyében. 
+Köszönjük a közös munkát, a próbákon együtt töltött időt, a koncentrációt!",
+    "venue": "<a target='_blank' href='https://www.facebook.com/profile.php?id=100054424932182'>Aranyhalas Tanya</a>",
+    "photo_credit": "",
+    "image": "images/gallery/Anna-Tamas.jpg",
+    "tags": [", "#nyitotanc", "#weddingdance", "#memories"]
+  },
+  {
+  "id": 4,
+    "name_left": "Ági",
+    "name_right": "Péter",
+    "text": "Norbi abszolút kitalálta a gondolatainkat. Olyan tánckompozícióval állt elő ,ami a zárkozóttabb férjem számára is megvalósítható volt és én is tündökölhettem. A jó hangulatú próbák pedig könnybbé tette számunkra a tanulást. Csak ajánlani tudom Norbit mindenkinek!",
+    "venue": "<a target='_blank' href='https://www.facebook.com/vinumhotelkiskoros'>Hotel Vinum Wellness és Konferencia</a>",
+    "photo_credit": "",
+    "image": "images/gallery/Agi-Peter.jpg",
+    "tags": ["nagynap", "#weddingdance"]
+  },
+  {
+    "id": 5,
+    "name_left": "Martina",
+    "name_right": "Kristóf",
+    "text": "Régóta szerettünk volna táncot tanulni, ami végül az esküvői nyitótáncra készüléskor, a lehető legjobb tanárnál valósult meg. 💃🏽 Egy szívünkhöz nagyon közelálló zenére, Norbi kérésünkre egy olyan koreográfiát alkotott meg, amit nem volt túl izzasztó megtanulni, mégis látványos volt. 💝Amellett, hogy a nyitótánc az egyik éke volt az esküvőnknek, az egész folyamat egy olyan új élmény volt számunkra, ami még közelebb hozott minket egymáshoz, köszönjük! 🥰",
+    "photo_credit": "",
+    "image": "images/gallery/Martina-Kristof.jpg",
+    "tags": ["#weddingdance", "#memories"]
+  },
+  {
+    "id": 2,
+    "name_left": "Dorina",
+    "name_right": "Zsolti",
+    "text": "Norbi amellett, hogy hihetetlen jó barát, kiváló szakember. Szuper volt a táncóra, remek instrukciókat adott és a személyiségünket figyelembe véve tette össze a koreográfiát. Elképesztő érzéke van a zenéhez és a párokhoz is egyaránt. Csak ajánlani tudom teljes szívből. 🤍 Keressétek bátran mert nem fogtok csalódni. 💃🏻 Utolsók közt csak annyit tudok mondani, hogy köszönjük!🎉.",
+    "venue": "<a target='_blank' href='https://www.facebook.com/NairamKlubhotelHivatalos'>Nairam Rendezvényközpont</a>",
+    "photo_credit": "",
+    "image": "images/gallery/Dorina-Zsolti.jpg",
+    "tags": ["#nairam", "#friends", "#weddingdance", "#memories"]
+  },
 ]
