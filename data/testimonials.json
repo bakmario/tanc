@@ -136,5 +136,65 @@
     "photo_credit": "<a href='https://www.facebook.com/theconcept2015' target='_blank'>The Concept Photography</a>",
     "image": "images/gallery/Fanni-Erik.jpg",
     "tags": ["#nyitotanc", "#weddingdance", "#szeposzinap", "#memories"]
-  }
+  },
+  {
+    "id": 15,
+    "name_left": "Vivien",
+    "name_right": "Ákos",
+    "text": "Szeretnénk megköszönni az első táncunk betanítását! Amennyire féltünk tőle, annyira jól sikerült, minden vendégnek nagyon tetszett! Bár nem vagyunk egy táncos lábú páros, neked még is sikerült a képességeinkhez mérten egy gyönyörű első táncot összerakni. A próba nagyon jó éréseinkre, hogy mit szeretnénk és mit nem. Köszönjük!🥰 ",
+    "venue": "<a target='_blank' href='https://www.facebook.com/szalkaszeged'>Szálka Halászcsárda és Rendezvényház</a>",
+    "photo_credit": "",
+    "image": "images/gallery/Vivien-Akos3.jpg",
+    "tags": ["#weddingdance", "#wifeandhusband", "#together", "#bigday", "#loveisintheair", "#couple"]
+  },
+  {
+    "id": 16,
+    "name_left": "Virág",
+    "name_right": "Ákos",
+    "text": "Norbival már a kezdetektől jól kijöttünk, nagy szívű, bohókás személyiségével könnyen tudtunk azonosulni. Nemcsak a nyitótáncot, de a meglepetéstáncunkat is szuperül összerakta az esküvőnkre.🥰",
+    "venue": "<a target='_blank' href='https://www.facebook.com/napsugar.vendeglo'>Napsugár Vendéglő</a>",
+    "photo_credit": "<a href='https://www.facebook.com/bencsikadamfoto' target='_blank'>The Concept Photography</a>",
+    "image": "images/gallery/Virag-Akos.jpg",
+    "tags": ["#nyitotanc","#bigday", "#weddingdance", "#memories"]
+  },
+  {
+    "id": 17,
+    "name_left": "Cinti",
+    "name_right": "Endre",
+    "text": "Eleinte féltünk belevágni a nyitótánc tanulásába, mert egyikünk sem az a kifejezetten táncoslábú típus. Több tánctanárral is beszéltünk, de miután Norbival találkoztunk, egyből éreztük, hogy ő lesz az, akire nekünk szükségünk van. Már az első óra után minden aggodalmunk elszállt, mert Norbi hihetetlenül kedves, türelmes és jófej volt, mindig felszabadult, jó hangulatban teltek az órák. Annyira megszerettük, hogy legszívesebben még most is járnánk hozzá táncolni. :D A koreográfia, amit megalkotott nekünk, teljesen rólunk szólt. A személyiségünkhöz és stílusunkhoz tökéletesen passzolt, és minden benne volt, amire vágytunk. Az esküvőn óriási sikerünk volt vele, életünk egyik legszebb közös élményét kaptuk általa. Az ismerőseink azóta is mondogatják, ennyire szép volt a táncunk. :) Szívből ajánljuk mindenkinek, aki szeretné, hogy a nyitótánca felejthetetlen legyen!",
+    "venue": "<a target='_blank' href='https://www.facebook.com/nadastoparkhotel'>Nádas Tó Park Hotel</a>",
+    "photo_credit": "<a href='https://www.aradibarna.com/' target='_blank'>Aradi Barna Photography</a>",
+    "image": "images/gallery/Cinti-Endre.jpg",
+    "tags": ["#weddingdance","#bigday", "#together"]
+  },  
+  {
+    "id": 18,
+    "name_left": "Kitti",
+    "name_right": "László",
+    "text": "Norbival már az első táncpróba alkalmával megtaláltuk a közös hangot. Egy igazán közvetlen, jófej és humoros srácot ismertünk meg a személyében. Hála neki már egészen hamar sikerült feloldódnunk.😊 Fantasztikus, izgalmas elemeket tartalmazó koreográfiát sikerült összeraknia számunkra, amely a nagy napunkon is hatalmas sikert aratott! Szívből ajánljuk őt mindenkinek aki egy igazán laza, borzasztóan jófej és kimagasló szakmai tudással rendelkező tánctanárt keres. Az ő személyében biztosan megtalálja!",
+    "venue": "<a target='_blank' href='https://www.facebook.com/szelrozsa2018'>Szélrózsa Birtok</a>",
+    "photo_credit": "",
+    "image": "images/gallery/Kitti-Laszlo.jpg",
+    "tags": ["#weddingdance","#szelrozsa", "#memories"]
+  }, 
+  {
+    "id": 19,
+    "name_left": "Klaudia",
+    "name_right": "Ádám",
+    "text": "Szegény Norbit, már az első órán nagy kihívás elé állítottam - megkértem, hogy 2 olyan táncot találjon ki, amiben alig vannak lépések 😅 A további órákon már csak egy stresszes menyasszonyal kellett megküzdenie 😂 De Norbit egyik sem tántorította el, zseniálisan oldott meg mindent. Olyan kreatív és könnyen megtanulható táncokat rakott össze, hogy a vendégeink azóta is áradoznak róla. Az órák hangulata mindig szuper volt, sok nevetéssel, lazasággal, és már az első perctől éreztük, hogy jó kezekben vagyunk. Imádtam az órákat, és már most hiányzik, hogy nincs több ❣️",
+    "venue": "<a target='_blank' href='https://www.facebook.com/profile.php?id=100078014361162'>Tündérkert Esküvői Rendezvényhelyszín</a>",
+    "photo_credit": "<a href='https://www.tapaimartin.hu/' target='_blank'>Tápai Martin Photography</a>",
+    "image": "images/gallery/Klaudia-Adam.jpg",
+    "tags": ["#nyitotanc", "#weddingdance", "#partyinthehouse"]
+  },
+  {
+    "id": 20,
+    "name_left": "Alexandra",
+    "name_right": "Zoltán",
+    "text": "Köszönjük a több alkalmas felkészítést, most már bizton állíthatjuk: A táncunk nem csak túlélte az esküvőt, hanem tényleg jól is sikerült és ez leginkább neked köszönhető. Te faragtál belőlünk kétbalkezes próbálkozókból olyan párost, aki nem okozott sokkot a vendégseregnek a parketten. Hálásak vagyunk a türelmedért, a jókedvedért, és hogy végig hittél benne: ebből még lehet tánc!",
+    "venue": "<a target='_blank' href='https://www.facebook.com/JakabLovasudvar'>Jakab Lovasudvar</a>",
+    "photo_credit": "<a href='https://www.facebook.com/slennerphoto' target='_blank'>Slenner Photography</a>",
+    "image": "images/gallery/Alexandra-Zoltan.jpg",
+    "tags": ["#nyitotanc","#memories", "#together", "#bigday"]
+  },  
 ]
