@@ -1,22 +1,14 @@
 [
   {
     "id": 1,
-    "name": "Kováts Jázon Photography",
+    "name": "Johanna Photography",
     "category": "fotos",
-    "image": "images/about/photographer_jazon.jpg",
-    "link": "https://www.facebook.com/jazonkovats",
-    "description": "Esküvői fotózás és videózás, természetes, élettel teli pillanatok megörökítése."
+    "image": "images/about/Johanna.jpg",
+    "link": "https://johannaphoto.hu/",
+    "description": "Az esküvő csodáját átélni egyszer tudjátok, de felidézni bármikor"
   },
   {
     "id": 2,
-    "name": "Aradi Barna Photography",
-    "category": "fotos",
-    "image": "images/about/Aradi-Barna.jpg",
-    "link": "https://www.aradibarna.com/",
-    "description": "Esküvői fotózás, természetes, élettel teli pillanatok megörökítése"
-  },
-  {
-    "id": 3,
     "name": "Luca Sára Photography",
     "category": "fotos",
     "image": "images/about/Luca-Sara.jpg",
@@ -24,12 +16,20 @@
     "description": "Örökítsük mega történeted minden fejezetét"
   },
   {
-    "id": 4,
-    "name": "Johanna Photography",
+    "id": 3,
+    "name": "Aradi Barna Photography",
     "category": "fotos",
-    "image": "images/about/Johanna.jpg",
-    "link": "https://johannaphoto.hu/",
-    "description": "Az esküvő csodáját átélni egyszer tudjátok, de felidézni bármikor"
+    "image": "images/about/Aradi-Barna.jpg",
+    "link": "https://www.aradibarna.com/",
+    "description": "Esküvői fotózás, természetes, élettel teli pillanatok megörökítése"
+  },
+  {
+    "id": 4,
+    "name": "Kováts Jázon Photography",
+    "category": "fotos",
+    "image": "images/about/photographer_jazon.jpg",
+    "link": "https://www.facebook.com/jazonkovats",
+    "description": "Esküvői fotózás és videózás, természetes, élettel teli pillanatok megörökítése."
   },
   {
     "id": 5,
