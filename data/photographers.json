@@ -72,7 +72,7 @@
     "description": "Tapasztalt ceremóniamester, aki emlékezetessé teszi a nagy napot. Szerkeszd a photographers.json fájlt az adatok módosításához."
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Bence a Vőfély",
     "category": "ceremoniamester",
     "image": "images/about/Vofely.jpg",
@@ -80,7 +80,7 @@
     "description": "Hogy a nagy napotok felejthetetlen legyen"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "EmlékVilág",
     "category": "egyeb",
     "image": "https://emlekvilag.cdn.shoprenter.hu/custom/emlekvilag/image/data/Banner/2025-08-20_hk.jpg.webp",
@@ -88,47 +88,47 @@
     "description": "Életünk meghatározó eseményeit sokféleképpen őrizhetjük, de az igazán emlékezetes pillanatok megérdemlik, hogy örökké velünk és szeretteinkkel legyenek."
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Lavard",
     "category": "egyeb",
     "image": "images/about/Lavard.jpg",
     "link": "https://lavard.hu/",
     "description": "Üdvözöljük a Lavard világában – Ahol a tradíció és a modern elegancia találkozik"
-  }
+  },
   {
-    "id": 14,
+    "id": 13,
     "name": "Andi Dekor",
     "category": "egyeb",
     "image": "images/about/Andidekor.jpg",
     "link": "https://www.facebook.com/profile.php?id=100063616538649",
     "description": "Álmodból legyen valóság! 💕"
-  }
+  },
   {
-    "id": 15,
+    "id": 14,
     "name": "Mandi Dekor",
     "category": "egyeb",
     "image": "images/about/Mandidekor.jpg",
     "link": "https://www.mandidekor.hu/",
     "description": "Célunk és hivatásunk, hogy örömet szerezzünk az általunk elkészített dekorációkkal, hogy minél több családhoz eljuthassanak a termékeink. Mesébe illő dekorációd lehessen akkor is ha a Te büdzsédnek ez eddig inkább csak egy álom volt."
-  }
+  },
   {
-    "id": 16,
+    "id": 15,
     "name": "Angelle Makeup",
     "category": "egyeb",
     "image": "images/about/Angelle.jpg",
     "link": "https://www.facebook.com/angellemakeup",
     "description": "Szenvedély, művészet, harmónia . Ezt jelenti nekem a sminkelés."
-  }
+  },
   {
-    "id": 17,
+    "id": 16,
     "name": "S.VIRAG.LASHES",
     "category": "egyeb",
     "image": "images/about/Virag.jpg",
     "link": "https://www.facebook.com/profile.php?id=100075705034014",
-    "description": "Célunk és hivatásunk, hogy örömet szerezzünk az általunk elkészített dekorációkkal, hogy minél több családhoz eljuthassanak a termékeink. Mesébe illő dekorációd lehessen akkor is ha a Te büdzsédnek ez eddig inkább csak egy álom volt."
-  }
+    "description": "𝐋𝐚𝐬𝐡𝐞𝐬 𝐚𝐧𝐝 𝐦𝐨𝐫𝐞…"
+  },
   {
-    "id": 18,
+    "id": 17,
     "name": "Spitzbuben",
     "category": "egyeb",
     "image": "images/about/Spitzbuben.jpg",
