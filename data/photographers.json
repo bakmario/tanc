@@ -81,6 +81,22 @@
   },
   {
     "id": 11,
+    "name": "Miska Vőfély",
+    "category": "ceremoniamester",
+    "image": "images/about/Miska.jpg",
+    "link": "https://miskavofely-hu.webnode.hu/",
+    "description": "Modern hagyományok, Kézben tartott esküvő, ahogy TI szeretnétek!"
+  },
+  {
+    "id": 12,
+    "name": "Torma András Ceremóniamester",
+    "category": "ceremoniamester",
+    "image": "images/about/Torma.jpg",
+    "link": "https://www.facebook.com/ceremoniamester.tormaandras",
+    "description": "Fontos egy esküvőn, hogy minden gördülékenyen és a pár kívánságait szem előtt tartva történjen."
+  },
+  {
+    "id": 13,
     "name": "EmlékVilág",
     "category": "egyeb",
     "image": "https://emlekvilag.cdn.shoprenter.hu/custom/emlekvilag/image/data/Banner/2025-08-20_hk.jpg.webp",
@@ -88,7 +104,7 @@
     "description": "Életünk meghatározó eseményeit sokféleképpen őrizhetjük, de az igazán emlékezetes pillanatok megérdemlik, hogy örökké velünk és szeretteinkkel legyenek."
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "Lavard",
     "category": "egyeb",
     "image": "images/about/Lavard.jpg",
@@ -96,7 +112,15 @@
     "description": "Üdvözöljük a Lavard világában – Ahol a tradíció és a modern elegancia találkozik"
   },
   {
-    "id": 13,
+    "id": 15,
+    "name": "Individuell Esküvő és Szalagavató Ruhaszalon",
+    "category": "egyeb",
+    "image": "images/about/Individuell.jpg",
+    "link": "https://www.facebook.com/individuell.ruhaszalon",
+    "description": "Esküvői és szalagavató ruhaszalon.Egyedi Ruhák /kérésre személyre szabás/Bérlés, vétel, egyedi varrás."
+  },
+  {
+    "id": 16,
     "name": "Andi Dekor",
     "category": "egyeb",
     "image": "images/about/Andidekor.jpg",
@@ -104,7 +128,7 @@
     "description": "Álmodból legyen valóság! 💕"
   },
   {
-    "id": 14,
+    "id": 17,
     "name": "Mandi Dekor",
     "category": "egyeb",
     "image": "images/about/Mandidekor.jpg",
@@ -112,7 +136,7 @@
     "description": "Célunk és hivatásunk, hogy örömet szerezzünk az általunk elkészített dekorációkkal, hogy minél több családhoz eljuthassanak a termékeink. Mesébe illő dekorációd lehessen akkor is ha a Te büdzsédnek ez eddig inkább csak egy álom volt."
   },
   {
-    "id": 15,
+    "id": 18,
     "name": "Angelle Makeup",
     "category": "egyeb",
     "image": "images/about/Angelle.jpg",
@@ -120,7 +144,7 @@
     "description": "Szenvedély, művészet, harmónia . Ezt jelenti nekem a sminkelés."
   },
   {
-    "id": 16,
+    "id": 19,
     "name": "S.VIRAG.LASHES",
     "category": "egyeb",
     "image": "images/about/Virag.jpg",
@@ -128,11 +152,27 @@
     "description": "𝐋𝐚𝐬𝐡𝐞𝐬 𝐚𝐧𝐝 𝐦𝐨𝐫𝐞…"
   },
   {
-    "id": 17,
+    "id": 20,
     "name": "Spitzbuben",
     "category": "egyeb",
     "image": "images/about/Spitzbuben.jpg",
     "link": "https://www.facebook.com/die6spitzbuben",
     "description": "Musikband mit voller Energie 🤟🎺"
+  },
+  {
+    "id": 21,
+    "name": "Édes Hagyományok",
+    "category": "egyeb",
+    "image": "images/about/Edes.jpg",
+    "link": "https://www.facebook.com/profile.php?id=61583880493780",
+    "description": ""
+  },
+  {
+    "id": 22,
+    "name": "LaCuisine Rendezvények",
+    "category": "egyeb",
+    "image": "images/about/LaCU.jpg",
+    "link": "https://lacuisinerendezvenyek.hu/",
+    "description": "Üdvözlünk a LaCuisine világában ahol az ízek, és az elegancia találkozik!"
   }
 ]
