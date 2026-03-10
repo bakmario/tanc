@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "delay_seconds": 2,
   "button_text": "Találkozz velem élőben!",
   "event": {
