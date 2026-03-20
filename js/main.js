@@ -163,7 +163,7 @@ async function loadPhotographers() {
   });
 
   // Render default (first filter - fotos)
-  renderPhotographers('fotos');
+  renderPhotographers('helyszin');
 }
 
 // ===== Gallery with filtering & lightbox =====
