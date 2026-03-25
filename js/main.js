@@ -306,7 +306,8 @@ function initContactForm() {
     const name = document.getElementById('senderName').value.trim();
     const email = document.getElementById('senderEmail').value.trim();
     const date = document.getElementById('weddingDate').value;
-    const location = document.getElementById('weddingLocation').value.trim();
+    const weddingLocation = document.getElementById('weddingLocation').value.trim();
+    const rehearsalLocation = document.getElementById('rehearsalLocation').value.trim();
     const printerRental = document.getElementById('printerRental').checked;
     const message = document.getElementById('messageText').value.trim();
 
@@ -320,7 +321,8 @@ function initContactForm() {
       `Feladó neve: ${name}\n` +
       `Feladó e-mail: ${email}\n` +
       `Esküvő dátuma: ${date || 'Még nem tudom'}\n` +
-      `Helyszín: ${location || 'Nincs megadva'}\n` +
+      `Esküvő helyszíne: ${weddingLocation || 'Nincs megadva'}\n` +
+      `Próba helyszíne: ${rehearsalLocation || 'Nincs megadva'}\n` +
       `Fotónyomtató bérlés: ${printerRental ? 'Igen, érdekel' : 'Nem'}\n` +
       `\nÜzenet:\n${message}`
     );
