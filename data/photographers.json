@@ -18,6 +18,14 @@
   },
   {
     "id": 3,
+    "name": "Guzsloványi Flóra Photography",
+    "category": "fotos",
+    "image": "images/about/Guzslovanyi.jpg",
+    "link": "https://www.facebook.com/guzslovanyiflora",
+    "description": "Hogyan lehet egyszerre kifejezni fényképen azt, amit az ember érez és lát?"
+  },
+  {
+    "id": 4,
     "name": "Aradi Barna Photography",
     "category": "fotos",
     "image": "images/about/Aradi-Barna.jpg",
@@ -25,25 +33,23 @@
     "description": "Esküvői fotózás, természetes, élettel teli pillanatok megörökítése"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Kováts Jázon Photography",
     "category": "fotos",
     "image": "images/about/photographer_jazon.jpg",
     "link": "https://www.facebook.com/jazonkovats",
     "description": "Esküvői fotózás és videózás, természetes, élettel teli pillanatok megörökítése."
   },
-
-  {
-    "id": 5,
-    "name": "Példa Videós",
-    "category": "videos",
-    "image": "images/about/photographer_placeholder.jpg",
-    "link": "#",
-    "description": "Professzionális esküvői videózás, filmes minőségben. Szerkeszd a photographers.json fájlt az adatok módosításához."
-  },
-
   {
     "id": 6,
+    "name": "RP Weddings",
+    "category": "videos",
+    "image": "images/about/RPWeddings.jpg",
+    "link": "https://rpweddings.hu/",
+    "description": "Ti átélitek, mi megörökítjük. Filmjeim hűen tükrözik a párok különálló személyiségeit, a helyszínek magával ragadó hangulatát és az ünneplés páratlan energiáját. Szerelmetek történetét ábrázolják."
+  },
+  {
+    "id": 7,
     "name": "Gólyafészek Rendezvènyhàz / Hochzeit Haus",
     "category": "helyszin",
     "image": "images/about/Golyafeszek.jpg",
@@ -51,7 +57,7 @@
     "description": "Gólyafészek Rendezvényház – ahol az IGEN örökre szól"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Szélrózsa Birtok",
     "category": "helyszin",
     "image": "images/about/Szelrozsa.jpg",
@@ -59,16 +65,15 @@
     "description": "A Szélrózsa birtok Dunaföldvár mellett, közvetlenül a Felső-tó partján található. A rendezvényház és környezete csendes, elegáns helyszínt biztosít alkalmi rendezvények, esküvők, születésnapok, családi összejövetelek, konferenciák és üzleti találkozók szervezéséhez."
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Nádas Pihenőpark",
     "category": "helyszin",
     "image": "images/about/Nadas.jpg",
     "link": "https://nadaspihenopark.hu/",
     "description": "Kezdődjön a közös jövő egy ideális, romantikus, csodás vízparti esküvő helyszínen!"
   },
-
   {
-    "id": 9,
+    "id": 10,
     "name": "Jakab Kinga Ceremóniamesternő",
     "category": "ceremoniamester",
     "image": "images/about/Jakab-Kinga.jpg",
@@ -76,7 +81,7 @@
     "description": "Tapasztalt ceremóniamester, aki emlékezetessé teszi a nagy napot. Szerkeszd a photographers.json fájlt az adatok módosításához."
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Bence a Vőfély",
     "category": "ceremoniamester",
     "image": "images/about/Vofely.jpg",
@@ -84,7 +89,7 @@
     "description": "Hogy a nagy napotok felejthetetlen legyen"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Miska Vőfély",
     "category": "ceremoniamester",
     "image": "images/about/Miska.jpg",
@@ -92,16 +97,15 @@
     "description": "Modern hagyományok, Kézben tartott esküvő, ahogy TI szeretnétek!"
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Torma András Ceremóniamester",
     "category": "ceremoniamester",
     "image": "images/about/Torma.jpg",
     "link": "https://www.facebook.com/ceremoniamester.tormaandras",
     "description": "Fontos egy esküvőn, hogy minden gördülékenyen és a pár kívánságait szem előtt tartva történjen."
   },
-
   {
-    "id": 13,
+    "id": 14,
     "name": "EmlékVilág",
     "category": "egyeb",
     "image": "https://emlekvilag.cdn.shoprenter.hu/custom/emlekvilag/image/data/Banner/2025-08-20_hk.jpg.webp",
@@ -109,7 +113,7 @@
     "description": "Életünk meghatározó eseményeit sokféleképpen őrizhetjük, de az igazán emlékezetes pillanatok megérdemlik, hogy örökké velünk és szeretteinkkel legyenek."
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "Andi Dekor",
     "category": "egyeb",
     "image": "images/about/Andidekor.jpg",
@@ -117,12 +121,28 @@
     "description": "Álmodból legyen valóság! 💕"
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "Mandi Dekor",
     "category": "egyeb",
     "image": "images/about/Mandidekor.jpg",
     "link": "https://www.mandidekor.hu/",
     "description": "Célunk és hivatásunk, hogy örömet szerezzünk az általunk elkészített dekorációkkal, hogy minél több családhoz eljuthassanak a termékeink. Mesébe illő dekorációd lehessen akkor is ha a Te büdzsédnek ez eddig inkább csak egy álom volt."
+  },
+  {
+    "id": 17,
+    "name": "Angelle Makeup",
+    "category": "szepseg",
+    "image": "images/about/Angelle.jpg",
+    "link": "https://www.facebook.com/angellemakeup",
+    "description": "Szenvedély, művészet, harmónia . Ezt jelenti nekem a sminkelés."
+  },
+  {
+    "id": 18,
+    "name": "Bak Linda PMU & Beauty",
+    "category": "szepseg",
+    "image": "images/about/Linda.jpg",
+    "link": "https://www.facebook.com/profile.php?id=100088866657815",
+    "description": "Szenvedély, művészet, harmónia . Ezt jelenti nekem a sminkelés."
   },
   {
     "id": 19,
@@ -132,9 +152,8 @@
     "link": "https://www.facebook.com/profile.php?id=100075705034014",
     "description": "𝐋𝐚𝐬𝐡𝐞𝐬 𝐚𝐧𝐝 𝐦𝐨𝐫𝐞…"
   },
-
   {
-    "id": 14,
+    "id": 20,
     "name": "Lavard",
     "category": "ruha",
     "image": "images/about/Lavard.jpg",
@@ -142,27 +161,15 @@
     "description": "Üdvözöljük a Lavard világában – Ahol a tradíció és a modern elegancia találkozik"
   },
   {
-    "id": 15,
+    "id": 21,
     "name": "Individuell Esküvő és Szalagavató Ruhaszalon",
     "category": "ruha",
     "image": "images/about/Individuell.jpg",
     "link": "https://www.facebook.com/individuell.ruhaszalon",
     "description": "Esküvői és szalagavató ruhaszalon.Egyedi Ruhák /kérésre személyre szabás/Bérlés, vétel, egyedi varrás."
   },
-
-
-
   {
-    "id": 18,
-    "name": "Angelle Makeup",
-    "category": "szepseg",
-    "image": "images/about/Angelle.jpg",
-    "link": "https://www.facebook.com/angellemakeup",
-    "description": "Szenvedély, művészet, harmónia . Ezt jelenti nekem a sminkelés."
-  },
-
-  {
-    "id": 20,
+    "id": 22,
     "name": "Spitzbuben",
     "category": "zene",
     "image": "images/about/Spitzbuben.jpg",
@@ -170,7 +177,23 @@
     "description": "Musikband mit voller Energie 🤟🎺"
   },
   {
-    "id": 21,
+    "id": 23,
+    "name": "Steve LandHouse",
+    "category": "zene",
+    "image": "images/about/Kreisz.jpg",
+    "link": "https://stevelandhouse-com7.webnode.hu",
+    "description": "Profi rendezvény és esküvői DJ"
+  },
+  {
+    "id": 24,
+    "name": "Tóth Gábor",
+    "category": "zene",
+    "image": "images/about/Toth.jpg",
+    "link": "https://www.facebook.com/gabor.toth.73744801",
+    "description": ""
+  },
+  {
+    "id": 25,
     "name": "Édes Hagyományok",
     "category": "egyeb",
     "image": "images/about/Edes.jpg",
@@ -178,7 +201,7 @@
     "description": ""
   },
   {
-    "id": 22,
+    "id": 26,
     "name": "LaCuisine Rendezvények",
     "category": "egyeb",
     "image": "images/about/LaCu.jpg",
