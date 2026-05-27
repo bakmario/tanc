@@ -1,16 +1,16 @@
 {
-  "enabled": false,
+  "enabled": true,
   "delay_seconds": 2,
-  "button_text": "Találkozz velem élőben!",
+  "button_text": "Szervezd meg esküvődet pár óra alatt az Őszi Esküvő Kiállításon!",
   "event": {
-    "title": "Esküvő Kiállítás",
-    "date": "2026. március 08.",
+    "title": "Őszi Esküvő Kiállítás",
+    "date": "2026.november 07.-08.",
     "time": "10:00 - 17:00",
-    "location": "Dunaföldvár, Szélrózsa Birtok",
-    "address": "7020 Dunaföldvár, 6228-as közút hrsz 032.",
+    "location": "Budapest, Hungexpo H pavilon ",
+    "address": "Budapest, Albertirsai út 10, 1101",
     "description": "Gyere el a legnagyobb esküvői kiállításra, ahol személyesen találkozhatsz velem! Beszélgethetünk a nyitótáncról, megnézhetsz élő bemutatót, és helyszíni kedvezményt is kaphatsz.",
-    "image": "images/event/Eskuvoikiallitas.jpg",
+    "image": "images/event/Oszieskuvo.jpg",
     "cta_text": "Részletek",
-    "cta_link": "https://www.facebook.com/events/707716045730875"
+    "cta_link": https://www.facebook.com/eskuvokiallitascewes"
   }
 }
