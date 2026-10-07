@@ -240,16 +240,6 @@
     "tags": ["#nyitotanc","#boldogsag", "#minthategnaplettvolna"]
   },
   {
-    "id": 25,
-    "name_left": "Bogi",
-    "name_right": "Erik",
-    "text": "Köszünjük Norbinak ezt a remek munkát, és a násznép szerint is csodás táncot. Szuper koreót talált ki nekünk, amit a végére egész jól sikerült is elsajátítanunk. Végletekig türelmes, ami hozzánk néha kellett is és imádjuk a humorát. Csakis Norbit válasszátok, nem bánjátok meg, garantáljuk.",
-    "venue": "<a target='_blank' href='https://www.facebook.com/halmaihaz'>Gólyafészek Rendezvényház</a>",
-    "photo_credit": "<a href='https://varroimre.hu/' target='_blank'>Varró Imre Photography</a>",
-    "image": "images/gallery/Bogi-Erik.jpg",
-    "tags": ["#nyitotanc2026","#boldogsag", "#golyafeszek", "#fndwedding"]
-  },
-  {
     "id": 26,
     "name_left": "Brigi",
     "name_right": "Márió",
@@ -258,15 +248,5 @@
     "photo_credit": "<a href='https://www.connordelano.com/' target='_blank'>Connor Delano Wedding Photography</a>",
     "image": "images/gallery/Brigi-Mario.jpg",
     "tags": ["#myfreinds","#buszkeseg", "#piciszivem", "#fndwedding"]
-  },
-  {
-    "id": 27,
-    "name_left": "Reni",
-    "name_right": "Ákos",
-    "text": "Szerettük volna nagyon megköszönni, hogy ilyen szuperül felkészítettél minket az első táncunkra! Minden pontosan úgy sikerült a nagy napon, ahogy elterveztük, az első lépéstől az utolsóig. A zene és a koreográfia is abszolút megteremtette azt a ,wow, élményt, amit szerettünk volna átélni, és amit a vendégeknek is át akartunk adni. Hatalmas sikere volt!",
-    "venue": "<a target='_blank' href='https://hilltopborbirtok.hu/</a>",
-    "photo_credit": "<a href='https://rpweddings.hu/' target='_blank'>RP Weddings Photography</a>",
-    "image": "images/gallery/Reni-Ákos.jpg",
-    "tags": ["#wedding2026","#weddingdance", "#hilltopborbirtok", "#fndwedding"]
   },
 ]
