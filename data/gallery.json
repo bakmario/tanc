@@ -71,7 +71,7 @@
   { "src": "images/gallery/Zsofi-Tamas2.jpg", "type": "photo", "label": "Zsófi és Tamás", "featured": true },
   { "src": "images/gallery/Zsofi-Tamas2.jpg", "type": "photo", "label": "Zsófi és Tamás", "featured": true },
 
-  { "src": "images/gallery/Bogi-Erik.jpg", "type": "photo", "label": "Bogi és Erik", "featured": true },
+  { "src": "images/gallery/Bogi-Erik.jpg", "type": "photo", "label": "Bogi és Erik", "featured": false },
   { "src": "images/gallery/Bogi-Erik1.jpg", "type": "photo", "label": "Bogi és Erik", "featured": true },
   { "src": "images/gallery/Bogi-Erik2.jpg", "type": "photo", "label": "Bogi és Erik", "featured": false },
   { "src": "images/gallery/Bogi-Erik3.jpg", "type": "photo", "label": "Bogi és Erik", "featured": false },
