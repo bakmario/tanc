@@ -363,7 +363,7 @@ async function initEventPopup() {
       <button class="event-popup-close" aria-label="Bezár">&times;</button>
       <div class="event-popup-content">
         <div class="event-popup-icon">
-          <i class="fas fa-calendar-star"></i>
+          <i class="fa-solid fa-calendar-days"></i>
         </div>
         <div class="event-popup-text">${data.button_text}</div>
       </div>
@@ -386,7 +386,7 @@ async function initEventPopup() {
             ${event.image ? `<img src="${event.image}" alt="${event.title}" class="event-modal-image" onerror="this.style.display='none'">` : ''}
             <div class="event-modal-info">
               <div class="event-modal-info-item">
-                <i class="fas fa-calendar-day"></i>
+                <i class="fa-solid fa-calendar-days"></i>
                 <span><strong>${event.date}</strong>${event.time ? ` &bull; ${event.time}` : ''}</span>
               </div>
               <div class="event-modal-info-item">
