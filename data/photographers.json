@@ -73,7 +73,7 @@
     "description": "Kezdődjön a közös jövő egy ideális, romantikus, csodás vízparti esküvő helyszínen!"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Logató",
     "category": "helyszin",
     "image": "images/about/Logato.png",
@@ -81,7 +81,7 @@
     "description": "Alig várjuk, hogy találkozzunk Önökkel!"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Jakab Kinga Ceremóniamesternő",
     "category": "ceremoniamester",
     "image": "images/about/Jakab-Kinga.jpg",
@@ -89,7 +89,7 @@
     "description": "Tapasztalt ceremóniamester, aki emlékezetessé teszi a nagy napot. Szerkeszd a photographers.json fájlt az adatok módosításához."
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Levente Ceremoniamester",
     "category": "ceremoniamester",
     "image": "images/about/Levente-Ceremoniamester.jpg",
@@ -97,7 +97,7 @@
     "description": "Ceremóniamester szolgáltatás mind angol, mind magyar nyelven."
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Miska Vőfély",
     "category": "ceremoniamester",
     "image": "images/about/Miska.jpg",
@@ -105,7 +105,7 @@
     "description": "Modern hagyományok, Kézben tartott esküvő, ahogy TI szeretnétek!"
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Torma András Ceremóniamester",
     "category": "ceremoniamester",
     "image": "images/about/Torma.jpg",
@@ -113,7 +113,7 @@
     "description": "Fontos egy esküvőn, hogy minden gördülékenyen és a pár kívánságait szem előtt tartva történjen."
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "EmlékVilág",
     "category": "egyeb",
     "image": "https://emlekvilag.cdn.shoprenter.hu/custom/emlekvilag/image/data/Banner/2025-08-20_hk.jpg.webp",
@@ -121,7 +121,7 @@
     "description": "Életünk meghatározó eseményeit sokféleképpen őrizhetjük, de az igazán emlékezetes pillanatok megérdemlik, hogy örökké velünk és szeretteinkkel legyenek."
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Andi Dekor",
     "category": "egyeb",
     "image": "images/about/Andidekor.jpg",
@@ -129,7 +129,7 @@
     "description": "Álmodból legyen valóság! 💕"
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "Mandi Dekor",
     "category": "egyeb",
     "image": "images/about/Mandidekor.jpg",
@@ -137,7 +137,7 @@
     "description": "Célunk és hivatásunk, hogy örömet szerezzünk az általunk elkészített dekorációkkal, hogy minél több családhoz eljuthassanak a termékeink. Mesébe illő dekorációd lehessen akkor is ha a Te büdzsédnek ez eddig inkább csak egy álom volt."
   },
   {
-    "id": 17,
+    "id": 18,
     "name": "Angelle Makeup",
     "category": "szepseg",
     "image": "images/about/Angelle.jpg",
@@ -145,7 +145,7 @@
     "description": "Szenvedély, művészet, harmónia . Ezt jelenti nekem a sminkelés."
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "Bak Linda PMU & Beauty",
     "category": "szepseg",
     "image": "images/about/Linda.jpg",
@@ -153,7 +153,7 @@
     "description": "Szenvedély, művészet, harmónia . Ezt jelenti nekem a sminkelés."
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "BN Beauty",
     "category": "szepseg",
     "image": "images/about/BN Beauty.jpg",
@@ -161,7 +161,7 @@
     "description": "Nappali, alkalmi, menyasszonyi, kreatív sminkek..."
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "Lavard",
     "category": "ruha",
     "image": "images/about/Lavard.jpg",
@@ -169,7 +169,7 @@
     "description": "Üdvözöljük a Lavard világában – Ahol a tradíció és a modern elegancia találkozik"
   },
   {
-    "id": 21,
+    "id": 22,
     "name": "Individuell Esküvő és Szalagavató Ruhaszalon",
     "category": "ruha",
     "image": "images/about/Individuell.jpg",
@@ -177,7 +177,7 @@
     "description": "Esküvői és szalagavató ruhaszalon.Egyedi Ruhák /kérésre személyre szabás/Bérlés, vétel, egyedi varrás."
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Spitzbuben",
     "category": "zene",
     "image": "images/about/Spitzbuben.jpg",
@@ -185,7 +185,7 @@
     "description": "Musikband mit voller Energie 🤟🎺"
   },
   {
-    "id": 23,
+    "id": 24,
     "name": "Steve LandHouse",
     "category": "zene",
     "image": "images/about/Kreisz.jpg",
@@ -193,7 +193,7 @@
     "description": "Profi rendezvény és esküvői DJ"
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "Tóth Gábor",
     "category": "zene",
     "image": "images/about/Toth.jpg",
@@ -201,7 +201,7 @@
     "description": ""
   },
   {
-    "id": 25,
+    "id": 26,
     "name": "Édes Hagyományok",
     "category": "egyeb",
     "image": "images/about/Edes.jpg",
@@ -209,7 +209,7 @@
     "description": ""
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "LaCuisine Rendezvények",
     "category": "egyeb",
     "image": "images/about/LaCu.jpg",
