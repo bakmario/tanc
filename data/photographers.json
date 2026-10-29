@@ -73,6 +73,14 @@
     "description": "Kezdődjön a közös jövő egy ideális, romantikus, csodás vízparti esküvő helyszínen!"
   },
   {
+    "id": 9,
+    "name": "Logató",
+    "category": "helyszin",
+    "image": "images/about/Logato.png",
+    "link": "https://eskuvo.logato.hu/",
+    "description": "Alig várjuk, hogy találkozzunk Önökkel!"
+  },
+  {
     "id": 10,
     "name": "Jakab Kinga Ceremóniamesternő",
     "category": "ceremoniamester",
